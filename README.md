@@ -1,4 +1,4 @@
-# 🧾 Calculadora de Propinas
+git# 🧾 Calculadora de Propinas
 
 Calculadora de propinas desarrollada con **React + TypeScript** usando **Vite** como bundler y **Tailwind CSS v4** para los estilos.
 

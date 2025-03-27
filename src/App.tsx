@@ -17,16 +17,16 @@ function App() {
         <div className="bg-purple-100 rounded-lg p-5">
           <h3 className="text-4xl text-center font-extrabold text-amber-500">Menú</h3>
 
-          <div className="space-y-3 mt-5">
+          <aside className="space-y-3 mt-5">
             {menuItems.map((item) => (
               <MenuItem key={item.id} item={item} addItem={addItem} />
             ))}
-          </div>
+          </aside>
         </div>
 
-        <div className="bg-amber-100 rounded-lg p-5">
+        <aside className="bg-amber-100 rounded-lg p-5">
           <h2 className="text-4xl text-center font-extrabold text-violet-500">Pedidos </h2>
-        </div>
+        </aside>
       </main>
     </>
   );
