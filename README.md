@@ -1,54 +1,55 @@
-# React + TypeScript + Vite
+# 🧾 Calculadora de Propinas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Calculadora de propinas desarrollada con **React + TypeScript** usando **Vite** como bundler y **Tailwind CSS v4** para los estilos.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧠 Descripción del proyecto
 
-## Expanding the ESLint configuration
+Esta aplicación permite al usuario seleccionar productos de un menú y añadirlos a la sección de pedidos. 
+Una vez configurado el pedido, el usuario puede elegir el **porcentaje de propina** que desea dejar. 
+El sistema calcula automáticamente el total incluyendo la propina seleccionada.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Ideal para prácticas de frontend con componentes interactivos, lógica condicional y manipulación de estado en React.
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🚀 Tecnologías utilizadas
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- ⚛️ React  
+- 🟦 TypeScript  
+- ⚡ Vite  
+- 🎨 Tailwind CSS v4
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+---
+
+## 📦 Instalación y uso
+
+
+git clone https://github.com/SergioGML/Propinas.git && cd Propinas && npm install && npm run dev
+
+
+Abre tu navegador en [http://localhost:5173](http://localhost:5173) para ver la aplicación.
+
+---
+
+
+---
+
+## 📌 Estado del proyecto
+
+✅ Funcionalidad básica implementada  
+🚧 Posibles mejoras: validaciones, persistencia de pedidos, animaciones
+
+---
+
+## 🧑‍💻 Autor
+
+**Sergio García Manzanares Ledesma**  
+[LinkedIn](https://www.linkedin.com/in/sergio-garcia-manzanares/) | [Portfolio](https://portfolio-1yo.pages.dev/)
+
+---
+
+## 📄 Licencia
+
+Este proyecto se entrega con fines educativos y está abierto a cualquier mejora o colaboración.
